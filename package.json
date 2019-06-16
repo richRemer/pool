@@ -1,0 +1,24 @@
+{
+  "name": "pool",
+  "version": "0.0.1-alpha1",
+  "description": "execute command for each IP address in DNS pool",
+  "bin": {
+    "pool": "bin/pool.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richRemer/pool.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richRemer/pool/issues"
+  },
+  "homepage": "https://github.com/richRemer/pool#readme",
+  "dependencies": {
+    "iteropt": "1.0.0-beta1"
+  }
+}
